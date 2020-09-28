@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <title>Document</title>
+</head>
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="images/logo-ead.png" alt="logo" style="width:90px"></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="profile.html">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Product</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+<style>
+  a:focus {
+    color:#ffffff;
+  }
+  </style>
+<body style="background-color: rgba(169, 169, 169, 0.76);">
+
+  <div class="container-fluid" style="margin-top: 15px;">
+  <div class="row">
+    <div class="col-sm-6" style="padding-left: 10%;">
+      <div class="card" style="height: 670px; background-color: darkgrey;">
+        <div class="card-body" style="padding-right: 5%; margin-top: 20%;">
+         <!-- video  -->
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/AwMeQJ_u73I" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card" style="height: 670px;">
+        <div class="card-title text-center mt-5">
+          <h3>Customers Data Registration</h3>
+        </div>
+        <div class="card-body" style="padding-right: 15%; padding-left: 15%;" >
+         <!-- form -->
+         <form>
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-4 col-form-label col-form-label-sm">Name</label>
+            <div class="col-sm-7">
+              <input type="text" class="form-control form-control" id="colFormLabelSm" placeholder=" Your Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-4 col-form-label">Phone</label>
+            <div class="col-sm-7">
+              <input type="email" class="form-control" id="colFormLabel" placeholder="">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-4 col-form-label col-form-label">Address</label>
+            <div class="col-sm-7">
+              <textarea name="address" id="" cols="10" rows="5" class="form-control" placeholder=""></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-4 col-form-label col-form-label">Payment</label>
+            <div class="col-sm-2">
+
+             <input type="radio" name="" id="">
+             <label for="">Cash</label>
+            </div>
+            <div class="col-sm-2">
+              
+              <input type="radio" name="" id="">
+              <label for="">Credit</label>
+             </div>
+          </div>
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-4 col-form-label col-form-label">Order Category</label>
+            <div class="col-sm-7">
+             <select name="" id="" class="form-control">
+               <option value="" selected>Computer</option>
+               <option value="">Keyboard</option>
+               <option value="">Mouse</option>
+             </select>
+            </div>
+          </div>
+          <div class="form-group row">
+           <button type="submit" class=" btn btn-primary btn-lg btn-block"> Send</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
