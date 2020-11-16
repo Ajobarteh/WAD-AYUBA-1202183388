@@ -40,11 +40,11 @@
                 </tr>
                 <tr>
                     <td>Phone Number: </td>
-                    <td><?= $phone_number_?> </td>
+                    <td><?= $phone_number?> </td>
                 </tr>
             </table>
-            <div style="text-align: cetnter;">
-                <a href="input_get.php" class="btn btn-primary mb-2"> Back</a>
+            <div style="text-align: center;">
+                <a href="inutp_get.php" class="btn btn-primary mb-2"> Back</a>
             </div>
         </fieldset>
     </div>
