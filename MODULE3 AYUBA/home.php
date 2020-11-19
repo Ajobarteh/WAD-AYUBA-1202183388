@@ -44,7 +44,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
     <?php
-    $conn = mysqli_connect("localhost:3307", "root", "", "events");
+    $conn = mysql_connect("localhost", "root", "", "events");
 
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);

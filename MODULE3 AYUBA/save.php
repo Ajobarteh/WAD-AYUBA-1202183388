@@ -60,7 +60,7 @@
 
 
 <?php
-$servername = "localhost:3307";
+$servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "events";
@@ -84,7 +84,7 @@ $price = $_POST['price'];
 $benefit = $_POST['benefit'];
 
 
-$sql = "INSERT INTO event (full_name, description, category, event_date, start_time, end_time, place, price, benefit)
+$sql = "INSERT INTO events (full_name, description, category, event_date, start_time, end_time, place, price, benefit)
 VALUES ('$full_name','$description','$category','$event_date','$start_time','$end_time','$place','$price','$benefit')";
 
 if (mysqli_query($conn, $sql)) {
