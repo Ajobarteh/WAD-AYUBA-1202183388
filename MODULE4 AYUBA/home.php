@@ -11,10 +11,10 @@
 </head>
 
 <nav class="navbar navbar-primary bg-primary justify-content-between">
-  <a class="navbar-brand" style="color:#fff; font-weight: bold">EAD EVENT</a>
+  <a class="navbar-brand" style="color:#fff; font-weight: bold">WAD Beauty</a>
   <form class="form-inline" action="create.php">
-      <a  href="home.php" class="mr-sm-2" style="color:#fff">Home</a>
-      <a href="create.php" class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="color:#fff; border: solid 1px #fff">Create Even</a>
+      <a  href="home.php" class="mr-sm-2" style="color:#fff">LogIn</a>
+      <a href="create.php" class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="color:#fff; border: solid 1px #fff">Register</a>
 </form>
 </nav>
 

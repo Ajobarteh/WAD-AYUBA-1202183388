@@ -15,24 +15,20 @@ if ($conn->connect_error) {
 session_start();
 
 if (isset($_POST['update'])) {
-	$id = $_POST['id'];
-    $full_name = $_POST["full_name"];
-    $description = $_POST["description"];
-    $category = $_POST["category"];
-    $event_date = $_POST["event_date"];
-    $start_time = $_POST["start_time"];
-    $end_time = $_POST["end_time"];
-    $place = $_POST["place"];
-    $price = $_POST["price"];
-    $benefit = $_POST["benefit"];
+  $id = $_POST['id'];
+		$update = true;
+    $resi_number = $_POST["resi_number"];
+    $product_id = $_POST["product_id"];
+    $user_id = $_POST["user_id"];
+    $status = $_POST["status"];
+    $current_location = $_POST["current_location"];
+
 
     // echo $event_date; exit;
 
-	mysqli_query($conn, "UPDATE event SET full_name= '$full_name', description = '$description',
-    category = '$category', event_date = '$event_date', start_time= '$start_time', end_time= '$end_time', place= '$place', price= '$price',
-    benefit = '$benefit' WHERE id=$id");
-	$_SESSION['message'] = "Event updated!"; 
-	header('location: home.php');
+	mysqli_query($conn, "UPDATE booking SET resi_number= '$resi_number', product_id = '$product_id',
+    user_id = '$user_id', status = '$status', current_location= '$current_location' WHERE id=$id");
+	header('location: index.php');
 }
 
 $conn->close();
