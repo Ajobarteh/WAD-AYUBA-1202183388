@@ -15,7 +15,7 @@ use App\Product;
 
 Route::get('/', function () {
     $product = Product::all();
-    return view('welcome', compact('product'));
+    return view('index', compact('product'));
 });
 
 
